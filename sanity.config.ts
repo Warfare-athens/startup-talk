@@ -12,8 +12,7 @@ export default defineConfig({
   projectId:"mop5svmq",
   dataset:"production",
   schema,
-  plugins: [
-    structureTool({ structure }),
+  plugins: [structureTool({ structure }),
     visionTool({ defaultApiVersion: apiVersion }),
     markdownSchema(),
   ],
