@@ -15,7 +15,8 @@
   "overrides": {
     "react": "$react",
     "react-dom": "$react-dom",
-    "next": "$next"
+    "next": "$next",
+    "sanity": "$sanity"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.2",
